@@ -1,0 +1,57 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MunichCityLibraryReminder.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Password" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="LandingPageUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://ssl.muenchen.de/aDISWeb/app?service=direct/0/Home/$DirectLink&amp;sp=SOPAC&amp;sp=SBK00000000</Value>
+    </Setting>
+    <Setting Name="BorrowalText" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Ausleihe zeigen oder verl&amp;#228;ngern</Value>
+    </Setting>
+    <Setting Name="BorrowalsText" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Ausleihen zeigen oder verl&amp;#228;ngern</Value>
+    </Setting>
+    <Setting Name="CardValidityText" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Ausweis g&amp;#252;ltig bis</Value>
+    </Setting>
+    <Setting Name="LogoutText" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Abmelden / Logout</Value>
+    </Setting>
+    <Setting Name="WarningDayCount" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="LastCheckedTimestamp" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Email" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="EmailPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Language" Type="System.String" Scope="User">
+      <Value Profile="(Default)">de</Value>
+    </Setting>
+    <Setting Name="DefaultLanguage" Type="System.String" Scope="User">
+      <Value Profile="(Default)">de</Value>
+    </Setting>
+    <Setting Name="Autoextend" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ApplicationWebsite" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://libraryreminder.codeplex.com/</Value>
+    </Setting>
+    <Setting Name="Appcast" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://db.tt/YTVCtviI</Value>
+    </Setting>
+    <Setting Name="CallUpgrade" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

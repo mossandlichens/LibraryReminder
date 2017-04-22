@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Munich City Library Reminder</title>
+    <link>http://db.tt/YTVCtviI</link>
+    <description>Munich City Library Reminder Appcast</description>
+    <language>en</language>
+    <item>
+      <title>Version 0.2.1.0</title>
+      <sparkle:releaseNotesLink>http://db.tt/GuuYcNI0</sparkle:releaseNotesLink>
+      <pubDate>Sun, 26 Feb 2011 18:10:00 +0100</pubDate>
+      <enclosure url="http://db.tt/nsFDGYLq" length="1197" type="application/octet-stream" sparkle:version="0.2.1.0" sparkle:dsaSignature="A/NNR+JJPHzNdTBABy/u6cITSAJXKFApvlVHs7F+65y608e28jq7pg==" />
+    </item>
+  </channel>
+</rss>

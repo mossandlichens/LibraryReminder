@@ -1,0 +1,2 @@
+New features:
+Support for Automatic updates.

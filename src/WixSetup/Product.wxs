@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Product Id="*" Name="WixSetup" Language="1033" Version="1.0.0.0" Manufacturer="Ranjith Venkatesh" UpgradeCode="9b4d8a77-a7a9-48b9-8620-05f8a28b605a">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		<MediaTemplate />
+
+		<Feature Id="ProductFeature" Title="WixSetup" Level="1">
+			<ComponentGroupRef Id="ProductComponents" />
+		</Feature>
+	</Product>
+
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="INSTALLFOLDER" Name="MunichCityLibraryReminder" />
+			</Directory>
+		</Directory>
+	</Fragment>
+
+	<Fragment>
+		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+      <Component Id="C_Executable">
+        <File Id="F_Executable" Source="..\MunichCityLibraryReminder\bin\Release\MunichCityLibraryReminder.exe"></File>
+      </Component>
+      <Component Id="C_DLL_Sparkle">
+        <File Id="F_AppLimit.NetSparkle.Net40" Source="..\MunichCityLibraryReminder\bin\Release\AppLimit.NetSparkle.Net40.dll"></File>
+      </Component>
+      <Component Id="C_DLL_TaskbarNotification">
+        <File Id="F_Hardcodet.Wpf.TaskbarNotification" Source="..\MunichCityLibraryReminder\bin\Release\Hardcodet.Wpf.TaskbarNotification.dll"></File>
+      </Component>
+      <Component Id="C_DLL_Common">
+        <File Id="F_Microsoft.Practices.EnterpriseLibrary.Common" Source="..\MunichCityLibraryReminder\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll"></File>
+      </Component>
+      <Component Id="C_DLL_Logging">
+        <File Id="F_Microsoft.Practices.EnterpriseLibrary.Logging" Source="..\MunichCityLibraryReminder\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll"></File>
+      </Component>
+      <Component Id="C_DLL_ServiceLocation">
+        <File Id="F_Microsoft.Practices.ServiceLocation" Source="..\MunichCityLibraryReminder\bin\Release\Microsoft.Practices.ServiceLocation.dll"></File>
+      </Component>
+      <Component Id="C_DLL_Unity">
+        <File Id="F_Microsoft.Practices.Unity" Source="..\MunichCityLibraryReminder\bin\Release\Microsoft.Practices.Unity.dll"></File>
+      </Component>
+      <Component Id="C_DLL_Interception">
+        <File Id="F_Microsoft.Practices.Unity.Interception" Source="..\MunichCityLibraryReminder\bin\Release\Microsoft.Practices.Unity.Interception.dll"></File>
+      </Component>
+      <Component Id="C_DLL_RazorHosting">
+        <File Id="F_RazorHosting" Source="..\MunichCityLibraryReminder\bin\Release\RazorHosting.dll"></File>
+      </Component>
+      <Component Id="C_DLL_SimpleBrowser">
+        <File Id="F_SimpleBrowser" Source="..\MunichCityLibraryReminder\bin\Release\SimpleBrowser.dll"></File>
+      </Component>
+      <Component Id="C_DLL_WPFLocalizeExtension">
+        <File Id="F_WPFLocalizeExtension" Source="..\MunichCityLibraryReminder\bin\Release\WPFLocalizeExtension.dll"></File>
+      </Component>
+      <Component Id="C_CONFIG">
+        <File Id="F_CONFIG" Source="..\MunichCityLibraryReminder\bin\Release\MunichCityLibraryReminder.exe.config"></File>
+      </Component>
+      <Component Id="C_ICO">
+        <File Id="F_ICO" Source="..\MunichCityLibraryReminder\Resources\App.ico"></File>
+      </Component>
+      <Component Id="C_DLL_en">
+        <File Id="F_DLL_en" Source="..\MunichCityLibraryReminder\bin\Release\en\MunichCityLibraryReminder.resources.dll"></File>
+      </Component>
+      <Component Id="C_en">
+        <CreateFolder Directory="en"></CreateFolder>
+      </Component>
+    </ComponentGroup>
+	</Fragment>
+</Wix>
